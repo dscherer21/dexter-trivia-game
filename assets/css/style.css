@@ -21,9 +21,26 @@ h1 {
 
 .btn {
   font-size: 25px;
+  margin: 10px;
 }
 
 .jumbotron {
-  background-color: rgba(185,8,8,1);
   color: white;
+  background-image: linear-gradient(0deg, black, rgba(185,8,8,.7));
+  background-color: rgba(0,0,0,0);
+}
+
+#gameBoard {
+  padding: 1px;
+  background-image:linear-gradient(0deg, rgba(185,8,8,.7), black);;
+}
+
+.timer {
+  background-color:white;
+  font-size: 32px;
+  margin: 10px;
+}
+
+li {
+  list-style: none;
 }
