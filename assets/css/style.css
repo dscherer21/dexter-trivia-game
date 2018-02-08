@@ -1,6 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
     background-color: teal;
     background-image: url('../images/dexterbackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+}
+
+hr {
+  opacity: 0;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+}
+
+.btn {
+  font-size: 25px;
+}
+
+.jumbotron {
+  background-color: rgba(185,8,8,1);
+  color: white;
 }
