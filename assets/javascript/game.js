@@ -93,7 +93,7 @@ $(document).ready(function() {
 		question : "In Season 1, when Deb found a still running, empty ice truck sitting on the side of the road, what did they find inside the back of the truck?",
 		possibleAnswers : ['A. A body bag with the corpse of young boy inside',
 					'B. A block of ice with severed, painted fingertips inside',
-					'C. A dead woman nailed to a cross',
+					"C. A woman's head inside a starofoam cooler",
 					'D. A dead man with his skin flayed off'],
 		flags : [false, true, false, false],
 		answer : 'B. A block of ice with severed, painted fingertips inside'
