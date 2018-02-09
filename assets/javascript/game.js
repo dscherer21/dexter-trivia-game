@@ -172,9 +172,14 @@ $(document).ready(function() {
 		$('.question').append("<h2><p>Incorrect: " + wrong + "</p></h2>");
 		$('.question').append("<h2><p>You've made it to the end of the quiz! As long as you didn't kill anyone to get here, you won't end up on Dexter's table!</p></h2>");
     //BUG Reset button is not showing up
-		$('.question').append('<button class="btn btn-primary" type="reset">Restart</button>');
+		$('.question').append('<button class="btn btn-primary" id="restart" type="reset">Restart</button>');
 		countdownTimer.stop();
 		$('.timer').empty();
+
+		//Reset Button
+		$('#restart').on('click', function() {
+			location.reload(true);
+		});
 
 	}
 
@@ -232,4 +237,6 @@ $(document).ready(function() {
 	}
 	});
 
-})
+});
+
+
