@@ -4,7 +4,7 @@
 
 body{
     background-color: teal;
-    background-image: url('../images/dexterbackground.jpg');
+    background-image: url('../images/dexterwallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Caveat', cursive;
@@ -26,13 +26,14 @@ h1 {
 
 .jumbotron {
   color: white;
-  background-image: linear-gradient(0deg, black, rgba(185,8,8,.7));
+  background-image: linear-gradient(0deg, black, rgba(185,8,8,.6));
   background-color: rgba(0,0,0,0);
 }
 
 #gameBoard {
-  padding: 1px;
-  background-image:linear-gradient(0deg, rgba(185,8,8,.7), black);;
+  padding: 20px;
+  background-image:linear-gradient(0deg, rgba(185,8,8,.6), black);
+  color: white;
 }
 
 .timer {
