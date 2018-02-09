@@ -128,6 +128,7 @@ $(document).ready(function() {
 	function setup() {
 		index = 0;
 		$('.question').append('<button id="startButton" class="btn btn-warning">Start</button>');
+    $('.question').append('<p>Welcome to Dexter Trivia. The game that will test your knowledge of the hit tv series "Dexter." Press the Start button to begin.</p>')
 		$('#startButton').on('click', function() {
 			$(this).hide();
 			countdownTimer.start();
